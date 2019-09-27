@@ -1,0 +1,55 @@
+Manuel Evanguelopulos Fernández
+mkdir lab2
+cd lab2/
+mkdir dir1
+mkdir dir2
+cd dir2/
+mkdir dir3
+cd dir3/
+nano fichero31.txt
+cp fichero31.txt fichero32.txt
+ls
+cd ..
+ls
+cd ..
+ls
+cd dir1/
+nano fichero1.txt
+ls
+cd ..
+ls
+cd ..
+nano fichero0.txt
+tree
+ls -R
+cd /home/ftel/practicas_casa_ftel2019//lab2/dir2/dir3/
+cd /home/ftel/practicas_casa_ftel2019/lab2/dir1/
+cd /home/ftel/practicas_casa_ftel2019/lab2/
+cd /home/ftel/practicas_casa_ftel2019/
+cd lab2/dir2/
+cd ..
+cd dir1/
+cd ../dir2/dir3/
+cd ~/practicas_casa_ftel2019/
+cat /home/ftel/practicas_casa_ftel2019/fichero0.txt 
+nano /home/ftel/practicas_casa_ftel2019/lab2/dir2/dir3/fichero32.txt 
+mv /home/ftel/practicas_casa_ftel2019/lab2/dir2/dir3/fichero31.txt /home/ftel/practicas_casa_ftel2019/lab2/dir2/dir3/fichero3100.txt
+ls -la lab2/dir2/dir3/
+nano lab2/dir2/dir3/fichero32.txt 
+cat lab2/dir1/fichero1.txt 
+mv lab2/dir2/dir3/fichero32.txt lab2/dir2/dir3/fichero3200.txt
+cd
+cd practicas_casa_ftel2019/
+ls -R
+tree
+cd lab2/dir1/
+cp /home/ftel/practicas_casa_ftel2019/fichero0.txt /home/ftel/practicas_casa_ftel2019/lab2/dir2/
+mv /home/ftel/practicas_casa_ftel2019/lab2/dir2/fichero0.txt /home/ftel/practicas_casa_ftel2019/lab2/dir2/fichero2.txt
+rm -ri /home/ftel/practicas_casa_ftel2019/lab2/dir2/dir3/fich*
+cp ../../fichero0.txt ../dir2/dir3/
+mv ../dir2/dir3/fichero0.txt ../dir2/dir3/fichero3300.txt
+rm -i ../dir2/fich*
+cd
+cd practicas_casa_ftel2019/
+tree
+history -w G14-Evanguelopulos-Fernandez-L2-1.txt
