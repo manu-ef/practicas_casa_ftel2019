@@ -18,6 +18,8 @@ function unidad(num) {
     }
 }
 
+console.log("Manuel Evanguelopulos Fernández");
+
 for (var i = 1; i <= 8; i++) {
   var j = i*10;
   console.log("1 x 2^" + j + " Bytes son 1 " + unidad(j) + "byte.");
