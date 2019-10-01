@@ -1,0 +1,6 @@
+Manuel Evanguelopulos Fernandez
+cd lab2/dir2/
+wc ../dir1/fichero1.txt 
+man grep
+grep Manuel -n ../dir1/fichero1.txt 
+history -w G14-Evanguelopulos-Fernandez-L2-2.txt
