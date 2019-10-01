@@ -1,0 +1,19 @@
+Manuel Evanguelopulos Fernandez
+cd practicas_labo_ftel2019
+mkdir lab1
+cd lab1/
+nano materias.txt 
+wc materias.txt 
+cp materias.txt temporal.txt
+cp materias.txt materias.bak
+nano temporal.txt
+mv temporal.txt materias-profes.txt
+ls
+nano materias-profes.txt 
+man diff
+diff -s materias.bak materias.txt
+ls -laR
+ls *mate*
+rm -i materias.bak
+ls
+history -w G14-Evanguelopulos-Fernandez-L1-2.txt
