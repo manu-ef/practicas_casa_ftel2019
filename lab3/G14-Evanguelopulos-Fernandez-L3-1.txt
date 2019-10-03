@@ -1,0 +1,23 @@
+Manuel Evanguelopulos Fernandez
+cat
+ls>lista-ficheros.txt
+cat lista-ficheros.txt 
+cat>frutas.txt
+cat frutas.txt 
+sort frutas.txt 
+sort frutas.txt -o frutas2.txt 
+sort > verduras.txt
+cat >> frutas.txt 
+cat frutas.txt 
+cat frutas.txt verduras.txt > comida.txt
+cat comida.txt 
+sort frutas.txt verduras.txt > comida.txt 
+cat comida.txt 
+ls > nombres.txt
+wc -w < nombres.txt
+ls -l
+chmod 440 frutas.txt 
+ls -l
+nano frutas.txt 
+man chmod
+history -w G14-Evanguelopulos-Fernandez-L3-1.txt
