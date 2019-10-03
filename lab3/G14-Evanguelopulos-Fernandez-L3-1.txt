@@ -15,6 +15,7 @@ sort frutas.txt verduras.txt > comida.txt
 cat comida.txt 
 ls > nombres.txt
 wc -w < nombres.txt
+ls | wc -w
 ls -l
 chmod 440 frutas.txt 
 ls -l
