@@ -1,0 +1,17 @@
+Manuel Evanguelopulos Fernandez
+cd lab3/
+cat>paises.txt
+cat>>paises.txt
+sort paises.txt | grep e
+sort paises.txt | grep e > nano lista-e.txt
+sort paises.txt | grep e > lista-e.txt
+cat lista-e.txt 
+sort paises.txt > paises-ordenados.txt
+ls -l
+chmod 660 lista-e.txt 
+ls -l
+chmod 660 lista-e.txt 
+ls -l
+chmod 770 lista-e.txt 
+ls -l
+history -w G14-Evanguelopulos-Fernandez-L3-2.txt 
