@@ -30,7 +30,7 @@ function dos_a(num) { // Calcula 2^n
 console.log("Manuel Evanguelopulos Fernández");
 
 var n = 10;
-while (n < 90) {
+while (n <= 80) {
   console.log("1 " + unidad(n) + "byte" + " = 2^" + n + " Bytes" + " = " + dos_a(n) + " Bytes.");
   n = n + 10;
 }
