@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="191" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.0.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:es-ES; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="192" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.0.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:es-ES; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
 <!-- ======================================================================== -->
 <!-- This file is an AbiWord document.                                        -->
 <!-- AbiWord is a free, Open Source word processor.                           -->
@@ -9,7 +9,7 @@
 <!-- ======================================================================== -->
 
 <metadata>
-<m key="abiword.date_last_changed">Sat Oct 19 20:37:06 2019
+<m key="abiword.date_last_changed">Sat Oct 19 20:41:58 2019
 </m>
 <m key="abiword.generator">AbiWord</m>
 <m key="dc.creator">Manuel Alvarez Campana</m>
@@ -20,8 +20,8 @@
 </metadata>
 <rdf>
 </rdf>
-<history version="5" edit-time="1800" last-saved="1571510226" uid="67d3517c-f29b-11e9-93c1-c583e64f6f16">
-<version id="5" started="1571508516" uid="73da71ea-f29f-11e9-93c1-c583e64f6f16" auto="0" top-xid="0"/>
+<history version="7" edit-time="2100" last-saved="1571510518" uid="67d3517c-f29b-11e9-93c1-c583e64f6f16">
+<version id="7" started="1571508516" uid="21f44436-f2a0-11e9-93c1-c583e64f6f16" auto="0" top-xid="0"/>
 </history>
 <styles>
 <s type="P" name="Normal" props="font-weight:normal; orphans:0; text-transform:none; bot-space:0in; shading-pattern:1; shading-foreground-color:transparent; left-space:0in; text-align:left; right-space:0in; lang:de-DE; dom-dir:ltr; default-tab-interval:0.4902in; top-space:0in; bgcolor:transparent; text-position:normal; line-height:1.000000; font-size:12pt; font-style:normal; widows:0; font-family:Times New Roman"/>
@@ -210,8 +210,7 @@
 <p style="Text body" xid="125" props="font-weight:bold; margin-bottom:0in; color:#004586">2.E</p>
 <p style="Text body" xid="126" props="text-align:left; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:underline">Número mágico de cat en hexadecimal</c>: 7f 45 4c 46 <c props="text-decoration:underline">y en ASCII:</c><c props="text-decoration:none"> .EFL</c></p>
 <p style="Text body" xid="127" props="margin-bottom:0in; font-size:11pt"><c></c></p>
-<p style="Text body" xid="128" props="font-size:11pt; margin-bottom:0in; text-decoration:underline">Explicación:<c props="text-decoration:none"> la extensión tipo .elf se u</c></p>
-<p style="Text body" xid="129" props="margin-bottom:0in; font-size:11pt"><c></c></p>
+<p style="Text body" xid="128" props="font-size:11pt; margin-bottom:0in; text-decoration:underline">Explicación:<c props="text-decoration:none"> la extensión tipo .elf se utiliza en UNIX-LINUX para todos los programas ejecutables de la consola.</c></p>
 <p style="Text body" xid="130" props="margin-bottom:0in; font-size:11pt"><c></c></p>
 </cell>
 </table>
@@ -222,9 +221,9 @@
 <table xid="135" props="table-column-props:6.7722in/; table-column-leftpos:0in; table-row-heights:/; table-width:6.7722in">
 <cell xid="136" props="right-color:#000000; left-color:#000000; bot-style:solid; bot-thickness:0.0034in; right-attach:1; top-thickness:0.0034in; right-thickness:0.0034in; top-color:#000000; bot-color:#000000; left-attach:0; top-style:solid; right-style:solid; left-style:solid; left-thickness:0.0034in; bot-attach:1; top-attach:0">
 <p style="Text body" xid="137" props="font-weight:bold; margin-bottom:0in; color:#004586">3.A</p>
-<p style="Text body" xid="138" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Nombre del fichero con extensión mp3</c><c props="font-size:11pt">:</c></p>
+<p style="Text body" xid="138" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Nombre del fichero con extensión mp3</c><c props="font-size:11pt">: cancion.mp3</c></p>
 <p style="Text body" xid="139" props="margin-bottom:0in; font-size:11pt"><c></c></p>
-<p style="Text body" xid="140" props="text-align:justify; margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Número de bytes del fichero</c><c props="font-size:11pt">:</c></p>
+<p style="Text body" xid="140" props="text-align:justify; margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Número de bytes del fichero</c><c props="font-size:11pt">: </c><c>6010879 bytes.</c></p>
 <p style="Text body" xid="141" props="text-align:justify; font-size:11pt; margin-bottom:0in"><c></c></p>
 </cell>
 </table>
@@ -233,7 +232,7 @@
 <table xid="144" props="table-column-props:6.7722in/; table-column-leftpos:0in; table-row-heights:/; table-width:6.7722in">
 <cell xid="145" props="right-color:#000000; left-color:#000000; bot-style:solid; bot-thickness:0.0034in; right-attach:1; top-thickness:0.0034in; right-thickness:0.0034in; top-color:#000000; bot-color:#000000; left-attach:0; top-style:solid; right-style:solid; left-style:solid; left-thickness:0.0034in; bot-attach:1; top-attach:0">
 <p style="Text body" xid="146" props="font-weight:bold; margin-bottom:0in; color:#004586">3.B</p>
-<p style="Text body" xid="147" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Orden para cortar el fichero con extensión mp3</c><c props="font-size:11pt">:</c></p>
+<p style="Text body" xid="147" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Orden para cortar el fichero con extensión mp3</c><c props="font-size:11pt">: ffmpeg -i cancion.mp3 -ss 20 -t 10 fragmentoCancion.mp3</c></p>
 <p style="Text body" xid="148" props="margin-bottom:0in; font-size:11pt"> </p>
 </cell>
 </table>
@@ -242,9 +241,10 @@
 <table xid="151" props="table-column-props:6.7722in/; table-column-leftpos:0in; table-row-heights:/; table-width:6.7722in">
 <cell xid="152" props="right-color:#000000; left-color:#000000; bot-style:solid; bot-thickness:0.0034in; right-attach:1; top-thickness:0.0034in; right-thickness:0.0034in; top-color:#000000; bot-color:#000000; left-attach:0; top-style:solid; right-style:solid; left-style:solid; left-thickness:0.0034in; bot-attach:1; top-attach:0">
 <p style="Text body" xid="153" props="font-weight:bold; margin-bottom:0in; color:#004586">3.C</p>
-<p style="Text body" xid="154" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Dos líneas anteriores a la última mostradas con la orden </c><c props="font-size:11pt; color:#002060; text-decoration:underline">ffmpeg -i </c><c props="font-size:11pt; color:#002060; text-decoration:underline; font-style:italic">nom-fich</c><c props="font-size:11pt; color:#002060; text-decoration:underline"> -f ffmetadata </c><c props="font-size:11pt">:</c></p>
+<p style="Text body" xid="154" props="text-align:left; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:underline; font-size:11pt">Dos líneas anteriores a la última mostradas con la orden </c><c props="font-size:11pt; color:#002060; text-decoration:underline">ffmpeg -i </c><c props="font-size:11pt; color:#002060; text-decoration:underline; font-style:italic">nom-fich</c><c props="font-size:11pt; color:#002060; text-decoration:underline"> -f ffmetadata </c><c props="font-size:11pt">: </c><c>Duration: 00:03:20.99, start: 0.025057, bitrate: 239 kb/s</c></p>
+<p style="Text body" xid="192" props="text-align:left; margin-bottom:0in; dom-dir:ltr"><c>    Stream #0:0: Audio: mp3, 44100 Hz, stereo, s16p, 239 kb/s</c></p>
 <p style="Text body" xid="155" props="margin-bottom:0in; font-size:11pt"><c></c></p>
-<p style="Text body" xid="156" props="text-align:justify; margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Dos líneas anteriores a la última mostradas con la orden </c><c props="font-size:11pt; color:#002060; text-decoration:underline">ffmpeg -i </c><c props="font-size:11pt; color:#002060; text-decoration:underline; font-style:italic">nom-frag</c><c props="font-size:11pt; color:#002060; text-decoration:underline"> -f ffmetadata</c><c props="text-decoration:underline; font-size:11pt"> :</c></p>
+<p style="Text body" xid="156" props="text-align:justify; margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Dos líneas anteriores a la última mostradas con la orden </c><c props="font-size:11pt; color:#002060; text-decoration:underline">ffmpeg -i </c><c props="font-size:11pt; color:#002060; text-decoration:underline; font-style:italic">nom-frag</c><c props="font-size:11pt; color:#002060; text-decoration:underline"> -f ffmetadata</c><c props="text-decoration:underline; font-size:11pt"> :</c><c props="text-decoration:none; font-size:11pt"> </c></p>
 <p style="Normal" xid="157" props="text-align:justify"><c></c></p>
 </cell>
 </table>
