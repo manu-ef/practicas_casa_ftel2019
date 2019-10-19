@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="174" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.0.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:es-ES; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="191" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.0.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:es-ES; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
 <!-- ======================================================================== -->
 <!-- This file is an AbiWord document.                                        -->
 <!-- AbiWord is a free, Open Source word processor.                           -->
@@ -9,7 +9,7 @@
 <!-- ======================================================================== -->
 
 <metadata>
-<m key="abiword.date_last_changed">Sat Oct 19 20:08:36 2019
+<m key="abiword.date_last_changed">Sat Oct 19 20:37:06 2019
 </m>
 <m key="abiword.generator">AbiWord</m>
 <m key="dc.creator">Manuel Alvarez Campana</m>
@@ -20,8 +20,8 @@
 </metadata>
 <rdf>
 </rdf>
-<history version="1" edit-time="300" last-saved="1571508516" uid="67d3517c-f29b-11e9-93c1-c583e64f6f16">
-<version id="1" started="1571508516" uid="78578c02-f29b-11e9-93c1-c583e64f6f16" auto="0" top-xid="0"/>
+<history version="5" edit-time="1800" last-saved="1571510226" uid="67d3517c-f29b-11e9-93c1-c583e64f6f16">
+<version id="5" started="1571508516" uid="73da71ea-f29f-11e9-93c1-c583e64f6f16" auto="0" top-xid="0"/>
 </history>
 <styles>
 <s type="P" name="Normal" props="font-weight:normal; orphans:0; text-transform:none; bot-space:0in; shading-pattern:1; shading-foreground-color:transparent; left-space:0in; text-align:left; right-space:0in; lang:de-DE; dom-dir:ltr; default-tab-interval:0.4902in; top-space:0in; bgcolor:transparent; text-position:normal; line-height:1.000000; font-size:12pt; font-style:normal; widows:0; font-family:Times New Roman"/>
@@ -30,6 +30,7 @@
 <s type="P" name="mysql" basedon="Preformatted Text" followedby="mysql" props="font-size:11pt; margin-top:0.118in"/>
 <s type="P" name="Preformatted Text" basedon="Normal" followedby="Preformatted Text" props="margin-top:0.1965in; font-size:10pt; font-family:Courier New"/>
 <s type="P" name="Text body" basedon="Normal" followedby="Text body" props="margin-bottom:0.0833in"/>
+<s type="P" name="Descripci\u243 ?n" basedon="Normal" props="margin-top:0.0826in; margin-bottom:0.0826in; font-style:italic"/>
 <s type="P" name="Descripción" basedon="Normal" followedby="Descripción" props="margin-top:0.0833in; margin-bottom:0.0833in; font-style:italic"/>
 <s type="P" name="Encabezado" basedon="Normal" followedby="Text body" props="margin-top:0.1666in; keep-with-next:yes; margin-bottom:0.0833in; font-family:Arial; font-size:14pt"/>
 <s type="P" name="Heading" basedon="Normal" followedby="Text body" props="margin-top:0.1666in; keep-with-next:yes; margin-bottom:0.0833in; font-family:Liberation Sans; font-size:14pt"/>
@@ -43,6 +44,8 @@
 <s type="C" name="LLS_3_7_text" followedby="LLS_3_7_text" props="font-weight:normal; font-size:10pt; font-family:Verdana; color:#000000; font-style:normal"/>
 <s type="C" name="LLS_3_8_text" followedby="LLS_3_8_text" props="font-weight:normal; font-size:10pt; font-family:Verdana; color:#000000; font-style:normal"/>
 <s type="C" name="Strong Emphasis_text" followedby="Strong Emphasis_text" props="font-weight:bold"/>
+<s type="P" name="T\u237 ?tulo 2" basedon="Normal" props="margin-top:0.1660in; font-weight:bold; margin-bottom:0.0826in; font-size:18pt"/>
+<s type="P" name="T\u237 ?tulo 3" basedon="Normal" props="margin-top:0.1660in; font-weight:bold; margin-bottom:0.0826in; font-size:14pt"/>
 <s type="P" name="Table Heading" basedon="Normal" followedby="Table Heading" props="text-align:center; font-weight:bold"/>
 <s type="P" name="Título 2" basedon="Normal" followedby="Título 2" props="margin-top:0.1666in; font-size:18pt; margin-bottom:0.0833in; font-weight:bold"/>
 <s type="C" name="WW_CharLFO1LVL1_text" followedby="WW_CharLFO1LVL1_text" props="font-weight:normal; font-size:10pt; font-family:Verdana; color:#000000; font-style:normal"/>
@@ -74,7 +77,6 @@
 <p style="Normal" xid="16" props="text-align:justify"><c props="lang:es-ES; font-size:11pt; color:#000000; text-decoration:underline">¿Puede deducirse su codificación</c><c props="lang:es-ES; font-size:11pt; color:#000000">?: Sí, UTF-8</c></p>
 <p style="Normal" xid="17" props="text-align:justify"><c></c></p>
 <p style="Normal" xid="18" props="text-align:justify"><c props="lang:es-ES; font-size:11pt; color:#000000; text-decoration:underline">Justifique su respuesta</c><c props="lang:es-ES; font-size:11pt; color:#000000">: Podemos deducirlo porque en codificación UTF-8, mi apellido son 14 bytes, el espacio cuenta como 1 byte, el símbolo del euro son 3 bytes, y el salto de línea equivale a un byte.</c></p>
-<p style="Normal" xid="19"><c></c></p>
 <p style="Normal" xid="20"><c></c></p>
 </cell>
 </table>
@@ -87,9 +89,7 @@
 <p style="Text body" xid="27" props="margin-bottom:0in; font-size:11pt"><c></c></p>
 <p style="Text body" xid="28" props="text-align:left; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:underline; font-size:11pt">Resultado de la orden file apell-cod</c><c props="font-size:11pt">: </c><c>apell-cod: ISO-8859 text</c></p>
 <p style="Text body" xid="29" props="margin-bottom:0in; font-size:11pt"><c></c></p>
-<p style="Text body" xid="30" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Explique las diferencias</c><c props="font-size:11pt">: </c></p>
-<p style="Normal" xid="31"><c></c></p>
-<p style="Normal" xid="32"><c></c></p>
+<p style="Text body" xid="30" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Explique las diferencias</c><c props="font-size:11pt">: Podemos observar que LATIN9 no reconoce el caracter del euro y por eso tiene 2 bytes menos, lo trata como un caracter ilegible.</c></p>
 <p style="Normal" xid="33"><c></c></p>
 </cell>
 </table>
@@ -98,13 +98,15 @@
 <table xid="36" props="table-column-props:6.7722in/; table-column-leftpos:0in; table-row-heights:/; table-width:6.7722in">
 <cell xid="37" props="right-color:#000000; left-color:#000000; bot-style:solid; bot-thickness:0.0034in; right-attach:1; top-thickness:0.0034in; right-thickness:0.0034in; top-color:#000000; bot-color:#000000; left-attach:0; top-style:solid; right-style:solid; left-style:solid; left-thickness:0.0034in; bot-attach:1; top-attach:0">
 <p style="Text body" xid="38" props="font-weight:bold; margin-bottom:0in; color:#004586">1.F</p>
-<p style="Text body" xid="39" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Salida generada por la orden hd apell</c><c props="font-size:11pt">:  </c></p>
+<p style="Text body" xid="39" props="text-align:left; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:underline; font-size:11pt">Salida generada por la orden hd apell</c><c props="font-size:11pt">: </c><c>00000000  45 76 61 6e 67 75 65 6c  6f 70 75 6c 6f 73 20 e2  |Evanguelopulos .|</c></p>
+<p style="Text body" xid="175" props="text-align:left; margin-bottom:0in; dom-dir:ltr"><c>00000010  82 ac 0a                                          |...|</c></p>
+<p style="Text body" xid="176" props="text-align:left; margin-bottom:0in; dom-dir:ltr"><c>00000013</c></p>
 <p style="Text body" xid="40" props="margin-bottom:0in; font-size:11pt"><c></c></p>
-<p style="Text body" xid="41" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Salida generada por la orden hd apell-cod</c><c props="font-size:11pt">:</c></p>
+<p style="Text body" xid="41" props="text-align:left; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:underline; font-size:11pt">Salida generada por la orden hd apell-cod</c><c props="font-size:11pt">: </c><c>00000000  45 76 61 6e 67 75 65 6c  6f 70 75 6c 6f 73 20 a4  |Evanguelopulos .|</c></p>
+<p style="Text body" xid="177" props="text-align:left; margin-bottom:0in; dom-dir:ltr"><c>00000010  0a                                                |.|</c></p>
+<p style="Text body" xid="178" props="text-align:left; margin-bottom:0in; dom-dir:ltr"><c>00000011</c></p>
 <p style="Text body" xid="42" props="font-size:11pt; margin-bottom:0in; text-decoration:underline"><c></c></p>
-<p style="Text body" xid="43" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Explique las diferencias</c><c props="font-size:11pt">:</c></p>
-<p style="Text body" xid="44" props="margin-bottom:0in; font-size:11pt"><c></c></p>
-<p style="Text body" xid="45" props="margin-bottom:0in; font-size:11pt"><c></c></p>
+<p style="Text body" xid="43" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Explique las diferencias</c><c props="font-size:11pt">: Aquí podemos observar claramente como el caracter del euro ocupa 3 bytes en UTF-8, mientras que en ISO-8859 corresponde como un caracter ilegible.</c></p>
 <p style="Text body" xid="46" props="margin-bottom:0in; font-size:11pt"><c></c></p>
 </cell>
 </table>
@@ -113,9 +115,19 @@
 <table xid="49" props="table-column-props:6.7722in/; table-column-leftpos:0in; table-row-heights:/; table-width:6.7722in">
 <cell xid="50" props="right-color:#000000; left-color:#000000; bot-style:solid; bot-thickness:0.0034in; right-attach:1; top-thickness:0.0034in; right-thickness:0.0034in; top-color:#000000; bot-color:#000000; left-attach:0; top-style:solid; right-style:solid; left-style:solid; left-thickness:0.0034in; bot-attach:1; top-attach:0">
 <p style="Text body" xid="51" props="font-weight:bold; margin-bottom:0in; color:#004586">1.G</p>
-<p style="Text body" xid="52" props="font-size:11pt; margin-bottom:0in; text-decoration:underline">Resultado de la orden unzip -l ftel-t2-lab4-form-2019.odt:</p>
-<p style="Text body" xid="53" props="margin-bottom:0in; font-size:11pt"><c></c></p>
-<p style="Text body" xid="54" props="margin-bottom:0in; font-size:11pt"><c></c></p>
+<p style="Text body" xid="52" props="text-align:left; text-decoration:underline; font-size:11pt; margin-bottom:0in; dom-dir:ltr">Resultado de la orden unzip -l ftel-t2-lab4-form-2019.odt:<c props="text-decoration:none"> Archive:  </c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:es-ES">ftel-t2-lab4-form-2019.odt</c></p>
+<p style="Text body" xid="179" props="text-align:left; font-size:11pt; text-decoration:underline; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:none">  Length      Date    Time    Name</c></p>
+<p style="Text body" xid="180" props="text-align:left; font-size:11pt; text-decoration:underline; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:none">---------  ---------- -----   ----</c></p>
+<p style="Text body" xid="181" props="text-align:left; text-decoration:underline; font-size:11pt; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:none">       39  2019-10-19 18:08   mimetype</c></p>
+<p style="Text body" xid="182" props="text-align:left; font-size:11pt; text-decoration:underline; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:none">      607  2019-10-19 20:08   meta.xml</c></p>
+<p style="Text body" xid="183" props="text-align:left; text-decoration:underline; font-size:11pt; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:none">    98006  2019-10-19 20:08   Thumbnails/thumbnail.png</c></p>
+<p style="Text body" xid="184" props="text-align:left; font-size:11pt; text-decoration:underline; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:none">      331  2019-10-19 20:08   settings.xml</c></p>
+<p style="Text body" xid="185" props="text-align:left; text-decoration:underline; font-size:11pt; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:none">      699  2019-10-19 20:08   META-INF/manifest.xml</c></p>
+<p style="Text body" xid="186" props="text-align:left; font-size:11pt; text-decoration:underline; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:none">      116  2019-10-19 20:08   manifest.rdf</c></p>
+<p style="Text body" xid="187" props="text-align:left; text-decoration:underline; font-size:11pt; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:none">    12853  2019-10-19 20:08   styles.xml</c></p>
+<p style="Text body" xid="188" props="text-align:left; font-size:11pt; text-decoration:underline; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:none">    40276  2019-10-19 20:08   content.xml</c></p>
+<p style="Text body" xid="189" props="text-align:left; font-size:11pt; text-decoration:underline; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:none">---------                     -------</c></p>
+<p style="Text body" xid="190" props="text-align:left; text-decoration:underline; font-size:11pt; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:none">   152927                     8 files</c></p>
 <p style="Text body" xid="55" props="margin-bottom:0in; font-size:11pt"><c></c></p>
 </cell>
 </table>
@@ -128,14 +140,13 @@
 <table xid="62" props="table-column-props:6.7722in/; table-column-leftpos:0in; table-row-heights:/; table-width:6.7722in">
 <cell xid="63" props="right-color:#000000; left-color:#000000; bot-style:solid; bot-thickness:0.0034in; right-attach:1; top-thickness:0.0034in; right-thickness:0.0034in; top-color:#000000; bot-color:#000000; left-attach:0; top-style:solid; right-style:solid; left-style:solid; left-thickness:0.0034in; bot-attach:1; top-attach:0">
 <p style="Text body" xid="64" props="font-weight:bold; margin-bottom:0in; color:#004586">2.A</p>
-<p style="Text body" xid="65" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Indique el resultado de comprobar con file el fichero imag.exe</c><c props="font-size:11pt">:</c></p>
+<p style="Text body" xid="65" props="text-align:left; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:underline; font-size:11pt">Indique el resultado de comprobar con file el fichero imag.exe</c><c props="font-size:11pt">: </c><c>imag.exe: GIF image data, version 89a, 226 x 225</c></p>
 <p style="Text body" xid="66" props="margin-bottom:0in; font-size:11pt"><c></c></p>
-<p style="Text body" xid="67" props="text-align:justify; margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Explique este resultado</c><c props="font-size:11pt">:  </c></p>
+<p style="Text body" xid="67" props="text-align:justify; margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Explique este resultado</c><c props="font-size:11pt">: Renombrar la extensión del archivo puede  no cambiar el archivo. Los metadatos internos del archivo demuestran que se trata de un archivo .gif y no de un archivo .exe.</c></p>
 <p style="Text body" xid="68" props="text-align:justify; font-size:11pt; margin-bottom:0in"><c></c></p>
-<p style="Text body" xid="69" props="text-align:justify; margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Indique el resultado de comprobar con file el fichero imag.exe con permisos de ejecución y lectura</c><c props="font-size:11pt">:</c></p>
+<p style="Text body" xid="69" props="text-align:justify; margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Indique el resultado de comprobar con file el fichero imag.exe con permisos de ejecución y lectura</c><c props="font-size:11pt">: </c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:es-ES">imag.exe: GIF image data, version 89a, 226 x 225</c></p>
 <p style="Text body" xid="70" props="text-align:justify; font-size:11pt; margin-bottom:0in"><c></c></p>
-<p style="Text body" xid="71" props="text-align:justify; margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Explique este resultado</c><c props="font-size:11pt">:  </c></p>
-<p style="Text body" xid="72" props="text-align:justify; font-size:11pt; margin-bottom:0in"><c></c></p>
+<p style="Text body" xid="71" props="text-align:justify; margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Explique este resultado</c><c props="font-size:11pt">: Dar permisos permiten que el archivo imag.exe pueda ejecutarse, pero el tipo de fichero sigue sin variar. Se trata de un archivo .gif pues sus metadatos internos lo definen así.</c></p>
 <p style="Text body" xid="73" props="text-align:justify; font-size:11pt; margin-bottom:0in"><c></c></p>
 </cell>
 </table>
@@ -144,15 +155,15 @@
 <table xid="76" props="table-column-props:6.7722in/; table-column-leftpos:0in; table-row-heights:/; table-width:6.7722in">
 <cell xid="77" props="right-color:#000000; left-color:#000000; bot-style:solid; bot-thickness:0.0034in; right-attach:1; top-thickness:0.0034in; right-thickness:0.0034in; top-color:#000000; bot-color:#000000; left-attach:0; top-style:solid; right-style:solid; left-style:solid; left-thickness:0.0034in; bot-attach:1; top-attach:0">
 <p style="Text body" xid="78" props="font-weight:bold; margin-bottom:0in; color:#004586">2.B</p>
-<p style="Text body" xid="79" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Primeros 20 dígitos hexadecimales de imag.gif</c><c props="font-size:11pt">:  </c></p>
+<p style="Text body" xid="79" props="text-align:left; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:underline; font-size:11pt">Primeros 20 dígitos hexadecimales de imag.gif</c><c props="font-size:11pt">:  </c><c>47 49 46 38 39 61 e2 00 e1 00</c></p>
 <p style="Text body" xid="80" props="margin-bottom:0in; font-size:11pt"><c></c></p>
-<p style="Text body" xid="81" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">6 primeros caracteres</c><c props="font-size:11pt">:</c></p>
+<p style="Text body" xid="81" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">6 primeros caracteres</c><c props="font-size:11pt">: GIF89a</c></p>
 <p style="Text body" xid="82" props="margin-bottom:0in; font-size:11pt"><c></c></p>
-<p style="Text body" xid="83" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Primer número entero</c><c props="font-size:11pt">:  </c></p>
+<p style="Text body" xid="83" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Primer número entero</c><c props="font-size:11pt">:  226, corresponde con el ancho de la imagen.</c></p>
 <p style="Text body" xid="84" props="margin-bottom:0in; font-size:11pt"><c></c></p>
-<p style="Text body" xid="85" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Segundo número entero</c><c props="font-size:11pt">:</c></p>
+<p style="Text body" xid="85" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Segundo número entero</c><c props="font-size:11pt">: 225, corresponde con el alto de la imagen.</c></p>
 <p style="Text body" xid="86" props="margin-bottom:0in; font-size:11pt"><c></c></p>
-<p style="Text body" xid="87" props="text-align:justify; margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">¿Que relación existe entre estos números y el resultado de la orden file imag.gif?</c><c props="font-size:11pt">:</c></p>
+<p style="Text body" xid="87" props="text-align:justify; margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">¿Que relación existe entre estos números y el resultado de la orden file imag.gif?</c><c props="font-size:11pt">: Ambos números se muestran al ejecutar la orden file image.gif, </c></p>
 <p style="Text body" xid="88" props="text-align:justify; font-size:11pt; margin-bottom:0in"><c></c></p>
 </cell>
 </table>
@@ -161,14 +172,13 @@
 <table xid="91" props="table-column-props:6.7722in/; table-column-leftpos:0in; table-row-heights:/; table-width:6.7722in">
 <cell xid="92" props="right-color:#000000; left-color:#000000; bot-style:solid; bot-thickness:0.0034in; right-attach:1; top-thickness:0.0034in; right-thickness:0.0034in; top-color:#000000; bot-color:#000000; left-attach:0; top-style:solid; right-style:solid; left-style:solid; left-thickness:0.0034in; bot-attach:1; top-attach:0">
 <p style="Text body" xid="93" props="font-weight:bold; font-size:11pt; margin-bottom:0in; color:#004586">2.C</p>
-<p style="Text body" xid="94" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Explique el resultado de la orden file raro.gif</c><c props="font-size:11pt">:</c></p>
+<p style="Text body" xid="94" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Explique el resultado de la orden file raro.gif</c><c props="font-size:11pt">: corresponde con una imagen de tipo .gif, versión 89a con 12338 píxeles de ancho y 14641 píxeles de alto</c></p>
 <p style="Text body" xid="95" props="margin-bottom:0in; font-size:11pt"><c></c></p>
 <p style="Text body" xid="96" props="font-size:11pt; margin-bottom:0in; text-decoration:underline">Indique las dimensiones que reporta la ejecución de la orden file:</p>
-<p style="Text body" xid="97" props="margin-bottom:0in"><c props="font-size:11pt">  </c><c props="text-decoration:underline; font-size:11pt">ancho =</c><c props="font-size:11pt">                    </c><c props="text-decoration:underline; font-size:11pt">pixeles</c></p>
-<p style="Text body" xid="98" props="margin-bottom:0in"><c props="font-size:11pt">  </c><c props="text-decoration:underline; font-size:11pt">alto=</c><c props="font-size:11pt">                        </c><c props="text-decoration:underline; font-size:11pt">pixeles</c></p>
-<p style="Text body" xid="99" props="font-size:11pt; margin-bottom:0in; text-decoration:underline"><c></c></p>
+<p style="Text body" xid="97" props="margin-bottom:0in"><c props="font-size:11pt">  </c><c props="text-decoration:underline; font-size:11pt">ancho =</c><c props="font-size:11pt"> 12338 </c><c props="text-decoration:underline; font-size:11pt">pixeles</c></p>
+<p style="Text body" xid="98" props="margin-bottom:0in"><c props="font-size:11pt">  </c><c props="text-decoration:underline; font-size:11pt">alto=</c><c props="font-size:11pt"> 14641 </c><c props="text-decoration:underline; font-size:11pt">pixeles</c></p>
 <p style="Text body" xid="100" props="font-size:11pt; margin-bottom:0in; text-decoration:underline"><c></c></p>
-<p style="Text body" xid="101" props="font-size:11pt; margin-bottom:0in; text-decoration:underline">Explique de donde sale el tamaño de la imagen:</p>
+<p style="Text body" xid="101" props="font-size:11pt; margin-bottom:0in; text-decoration:underline">Explique de donde sale el tamaño de la imagen:<c props="text-decoration:none"> Al introducir en la primera línea GIF89a2019, el archivo ha quedado codificado como .gif, version 89a, pero el número 2019 se ha interpretado como 4 números hexadecimales que representan el ancho y el alto. </c></p>
 <p style="Text body" xid="102" props="text-align:justify; font-size:11pt; margin-bottom:0in"><c></c></p>
 </cell>
 </table>
@@ -177,17 +187,17 @@
 <table xid="105" props="table-column-props:6.7722in/; table-column-leftpos:0in; table-row-heights:/; table-width:6.7722in">
 <cell xid="106" props="right-color:#000000; left-color:#000000; bot-style:solid; bot-thickness:0.0034in; right-attach:1; top-thickness:0.0034in; right-thickness:0.0034in; top-color:#000000; bot-color:#000000; left-attach:0; top-style:solid; right-style:solid; left-style:solid; left-thickness:0.0034in; bot-attach:1; top-attach:0">
 <p style="Text body" xid="107" props="font-weight:bold; margin-bottom:0in; color:#004586">2.D</p>
-<p style="Text body" xid="108" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Metadatos de glow.tiff obtenidos con la orden file:</c></p>
+<p style="Text body" xid="108" props="text-align:left; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:underline; font-size:11pt">Metadatos de glow.tiff obtenidos con la orden file:</c><c props="text-decoration:none; font-size:11pt"> </c><c>glow.tiff: TIFF image data, little-endian, direntries=15, height=480, bps=50286, compression=LZW, PhotometricIntepretation=RGB, name=/usr/local/web/raster3d/examples/glow.tiff, description=Bee venom phosphodiesterase (figure courtesy of Ellie Adman)                    , orientation=upper-left, width=480</c></p>
 <p style="Text body" xid="109" props="margin-bottom:0in; font-size:11pt"><c></c></p>
-<p style="Text body" xid="110" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Número mágico de glow.tiff en hexadecimal:</c><c props="font-size:11pt">                                  </c><c props="text-decoration:underline; font-size:11pt">y en ASCII:</c></p>
+<p style="Text body" xid="110" props="text-align:left; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:underline; font-size:11pt">Número mágico de glow.tiff en hexadecimal:</c><c props="font-size:11pt"> </c><c>49 49 2a 00</c><c props="font-size:11pt"> </c><c props="text-decoration:underline; font-size:11pt">y en ASCII:</c><c props="text-decoration:none; font-size:11pt"> II*.</c></p>
 <p style="Text body" xid="111" props="margin-bottom:0in; font-size:11pt"><c></c></p>
-<p style="Text body" xid="112" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Explicación:</c></p>
+<p style="Text body" xid="112" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Explicación:</c><c props="text-decoration:none; font-size:11pt"> Este archivo .tiff es de tipo Intel o Little-endian (II)</c></p>
 <p style="Text body" xid="113" props="margin-bottom:0in; font-size:11pt"><c></c></p>
-<p style="Text body" xid="114" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Metadatos de gmarbles.tiff obtenidos con la orden file:</c><c props="font-size:11pt">  </c></p>
+<p style="Text body" xid="114" props="text-align:left; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:underline; font-size:11pt">Metadatos de gmarbles.tiff obtenidos con la orden file:</c><c props="font-size:11pt"> </c><c>gmarbles.tiff: TIFF image data, big-endian, direntries=15, height=1001, bps=8, compression=LZW, PhotometricIntepretation=BlackIsZero, width=1419</c></p>
 <p style="Text body" xid="115" props="margin-bottom:0in; font-size:11pt"><c></c></p>
-<p style="Text body" xid="116" props="margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Número mágico de gmarbles.tiff en hexadecimal:</c><c props="font-size:11pt">                           </c><c props="text-decoration:underline; font-size:11pt">y en ASCII:</c></p>
+<p style="Text body" xid="116" props="text-align:left; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:underline; font-size:11pt">Número mágico de gmarbles.tiff en hexadecimal:</c><c props="font-size:11pt"> </c><c>4d 4d 00 2a</c><c props="font-size:11pt"> </c><c props="text-decoration:underline; font-size:11pt">y en ASCII:</c><c props="text-decoration:none; font-size:11pt"> MM*.</c></p>
 <p style="Text body" xid="117" props="font-size:11pt; margin-bottom:0in; text-decoration:underline"><c></c></p>
-<p style="Text body" xid="118" props="text-align:justify; margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Explicación:</c><c props="font-size:11pt">  </c></p>
+<p style="Text body" xid="118" props="text-align:justify; margin-bottom:0in"><c props="text-decoration:underline; font-size:11pt">Explicación:</c><c props="font-size:11pt"> Este archivo .tiff es de tipo Motorola o Big-endian (MM).</c></p>
 <p style="Text body" xid="119" props="text-align:justify; font-size:11pt; margin-bottom:0in"><c></c></p>
 </cell>
 </table>
@@ -198,9 +208,9 @@
 </cell>
 <cell xid="124" props="right-color:#000000; bot-style:solid; bot-thickness:0.0034in; right-attach:1; left-thickness:0.0034in; right-thickness:0.0034in; left-color:#000000; top-style:none; left-attach:0; left-style:solid; right-style:solid; bot-color:#000000; bot-attach:2; top-attach:1">
 <p style="Text body" xid="125" props="font-weight:bold; margin-bottom:0in; color:#004586">2.E</p>
-<p style="Text body" xid="126" props="margin-bottom:0in"><c props="text-decoration:underline">Número mágico de cat en hexadecimal</c>:                            <c props="text-decoration:underline">y en ASCII:</c></p>
+<p style="Text body" xid="126" props="text-align:left; margin-bottom:0in; dom-dir:ltr"><c props="text-decoration:underline">Número mágico de cat en hexadecimal</c>: 7f 45 4c 46 <c props="text-decoration:underline">y en ASCII:</c><c props="text-decoration:none"> .EFL</c></p>
 <p style="Text body" xid="127" props="margin-bottom:0in; font-size:11pt"><c></c></p>
-<p style="Text body" xid="128" props="font-size:11pt; margin-bottom:0in; text-decoration:underline">Explicación:</p>
+<p style="Text body" xid="128" props="font-size:11pt; margin-bottom:0in; text-decoration:underline">Explicación:<c props="text-decoration:none"> la extensión tipo .elf se u</c></p>
 <p style="Text body" xid="129" props="margin-bottom:0in; font-size:11pt"><c></c></p>
 <p style="Text body" xid="130" props="margin-bottom:0in; font-size:11pt"><c></c></p>
 </cell>
