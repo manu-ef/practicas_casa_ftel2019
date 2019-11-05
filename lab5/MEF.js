@@ -39,3 +39,7 @@ function tangente() {
   var num = document.getElementById("n1");
   num.value = Math.sin(num.value)/Math.cos(num.value);
 }
+function partidoxcuadrado() {
+  var num = document.getElementById("n1");
+  num.value = 1/(num.value*num.value);
+}
