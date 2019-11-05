@@ -1,0 +1,38 @@
+
+<!doctype html><html><head>
+    <meta charset="utf-8">
+
+    <script type="text/javascript">
+
+        // MODELO DE DATOS
+        var mis_peliculas = ["Superlópez", "Jurasic Park", "Interstelar"];
+
+        // VISTA: HTML generado con una función
+        function peliculas () {
+            var    i=0,   view = "";
+            
+            while(i < mis_peliculas.length) {
+              view = view + `
+                  <li> ${mis_peliculas[i]}</li>`;
+              i = i + 1;
+            };
+
+            return view;
+        };
+
+        // Función de inicialización 
+        function init() {
+            document.getElementById('lista').innerHTML = peliculas();
+        };
+    </script>
+</head>
+
+<body onload="init()">
+
+    <h1>Películas</h1>
+    Mis películas favoritas:
+    <ul id="lista">  <!-- Las películas se incluyen aquí -->  </ul>
+</body>
+</html>
+
+

@@ -1,0 +1,35 @@
+
+<!doctype html><html><head>
+    <meta charset="utf-8">
+
+    <script type="text/javascript">
+
+        // MODELO DE DATOS
+        var mi_pelicula = {
+            titulo: "Tiburón",
+            director: "Steven Spielberg",
+            estreno: 1975
+        };
+
+        // VISTA: HTML generado con una función
+        function vista_inicial (pelicula) {
+            return `
+            <h1> Película del Año ${pelicula.estreno} </h1>
+
+            La película <b> ${pelicula.titulo}</b>, estrenada 
+            en el año <b> ${pelicula.estreno}</b>, fue
+            dirigida por <b> ${pelicula.director}</b>!`
+        }
+
+        // Función de inicialización 
+        function init() {
+            document.getElementById('main').innerHTML = vista_inicial(mi_pelicula);
+        };
+    </script>
+</head>
+   <!-- El evento "onload" ocurre cuando la página esta cargada --> 
+<body onload="init()" id="main">
+   <!-- La vista  se incluye aquí --> 
+</body>
+</html>
+
