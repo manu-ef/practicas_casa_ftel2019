@@ -49,7 +49,10 @@
     }
 
     function showView (i) {
-      // Completar: genera HTML con información de la película // ...
+      return `La película <b>${mis_peliculas[i].titulo}</b> fue dirigida por
+      <b>${mis_peliculas[i].director}</b>.
+      <button onclick="indexContr()">Volver</button>
+      <button onclick="editContr(${i})">Editar Película</button>`;
     }
 
     function newView () {
@@ -66,7 +69,7 @@
     };
 
     function showContr(i) {
-      // Completar: controlador que muestra la vista showView(i) // ...
+      document.getElementById('main').innerHTML = showView(i);
     };
 
     function editContr(i) {
@@ -84,7 +87,8 @@
     };
 
     function createContr() {
-      mis_peliculas.push({titulo: document.getElementById('titulo').value, director: document.getElementById('director').value});
+      mis_peliculas.push({titulo: document.getElementById('titulo').value,
+      director: document.getElementById('director').value});
       indexContr();
     };
 
