@@ -1,132 +1,105 @@
-<!DOCTYPE html>
-<!-- saved from url=(0112)https://moodle.upm.es/titulaciones/oficiales/pluginfile.php/911451/mod_resource/content/3/ftel-t3-lab6-2019.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Mis Películas</title>
-    <style>
-        button, .q { 
-            display: inline-block; text-decoration: none;
-            padding: 2px 6px; margin: 2px;
-            color: #FFF;
-            border-radius: 4px; }
-        .q { background: #4479BA; }
-        button { background: #bbbbdd; }
-        button:hover, .q:hover { background: #356094; }
-    </style>
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mis Películas</title>
+  <style>
+    button, .q {
+      display: inline-block; text-decoration: none;
+      padding: 2px 6px; margin: 2px;
+      color: #FFF;
+      border-radius: 4px; }
+    .q { background: #4479BA; }
+    button { background: #bbbbdd; }
+    button:hover, .q:hover { background: #356094; }
+  </style>
 
-    <script type="text/javascript">
+  <script type="text/javascript">
+    // MODELO DE DATOS
+    var mis_peliculas = [
+    {titulo: "Superlópez", director: "Javier Ruiz Caldera"},
+    {titulo: "Jurasic Park", director: "Steven Spielberg"},
+    {titulo: "Interstelar", director: "Christopher Nolan"}
+    ];
 
-        // MODELO DE DATOS
-        var mis_peliculas = [
-            {titulo: "Superlópez",   director: "Javier Ruiz Caldera"},
-            {titulo: "Jurasic Park", director: "Steven Spielberg"},
-            {titulo: "Interstelar",  director: "Christopher Nolan"}
-        ];
+    // VISTAS
+    function indexView () {
+      var i=0;
+      var view = "";
+      while(i < mis_peliculas.length){
+      view = view + `
+        <div>
+          <span class="q" onclick="showContr(${i})">
+            ${mis_peliculas[i].titulo}</span>
+          <button onclick="editContr(${i})">Editar</button>
+          <button onclick="deleteContr(${i})">Borrar</button>
+        </div>\n`;
+        i = i + 1;
+      };
+      view = view + `<button onclick="newContr()"> Añadir</button>`
+      return view;
+    };
 
-        // VISTAS
-        function indexView () {
-            var i=0;
-            var view = "";
+    function editView (i) {
+      return `Editar Película: <br>
+      <input type="text" id="titulo" value="${mis_peliculas[i].titulo}"><br>
+      <input type="text" id="director" value="${mis_peliculas[i].director}"><br>
+      <button onclick="updateContr(${i})">Actualizar</button><br>
+      <button onclick="indexContr()">Volver</button>`;
+    }
 
-            while(i < mis_peliculas.length) {
-              view = view + `
-                <div>
-                   <span class="q" onclick="showContr(${i})">
-                                   ${mis_peliculas[i].titulo}</span>
-                   <button onclick="editContr(${i})">Editar</button>
-                   <button onclick="deleteContr(${i})">Borrar</button>
-                </div>\n`;
-              i = i + 1;
-            };
+    function showView (i) {
+      // Completar: genera HTML con información de la película // ...
+    }
 
-            view = view + `<button onclick="newContr()">Añadir</button>`
+    function newView () {
+      // Completar: genera formulario para crear nuevo quiz // ...
+    }
 
-            return view;
-        };
+    // CONTROLADORES
+    function indexContr() {
+      document.getElementById('main').innerHTML = indexView();
+    };
 
-        function editView (i) {
-            return `Editar Película: <br>
-                <input  type="text" id="titulo" 
-                        value="${mis_peliculas[i].titulo}"><br>
-                <input  type="text" id="director" 
-                        value="${mis_peliculas[i].director}"><br>
-                <button onclick="updateContr(${i})">Actualizar</button><br>
-                <button onclick="indexContr()">Volver</button>`;
-        }
+    function showContr(i) {
+      // Completar: controlador que muestra la vista showView(i) // ...
+    };
 
-        function showView (i) {
-            return `La película ${mis_peliculas[i].titulo} fue dirigida por ${mis_peliculas[i].director}`;
+    function editContr(i) {
+      document.getElementById('main').innerHTML = editView(i);
+    };
 
-        }
+    function updateContr(i) {
+      mis_peliculas[i].titulo = document.getElementById('titulo').value;
+      mis_peliculas[i].director = document.getElementById('director').value;
+      indexContr();
+    };
 
-        function newView (i) {
-            return `Añadir Película: <br>
-                <input  type="text" id="titulo" 
-                        value=""><br>
-                <input  type="text" id="director" 
-                        value=""><br>
-                <button onclick="createContr()">Añadir</button><br>
-                <button onclick="indexContr()">Volver</button>`;
+    function newContr() {
+      // Completar: controlador que muestra la vista newView() // ...
+    };
 
-        }
+    function createContr() {
+      // Completar: controlador que actualiza el modelo con la nueva película // ...
+    };
 
+    function deleteContr(i) {
+      // Genera desplegable: botón ok devuelve true, Cancel false
+      if (confirm(`Borrar ${mis_peliculas[i].titulo}`)) {
+        mis_peliculas.splice(i, 1); // elimina elemento i del array
+        indexContr();
+      };
+    };
 
-        // CONTROLADORES 
-        function indexContr() {
-            document.getElementById('main').innerHTML = indexView();
-        };
+    // Inicialización
+    function init() {
+      indexContr();
+    };
 
-        function showContr(i) {
-            document.getElementById('main').innerHTML = showView(i);
-
-        };
-
-        function editContr(i) {
-            document.getElementById('main').innerHTML = editView(i);
-        };
-
-        function updateContr(i) {
-            mis_peliculas[i].titulo   = document.getElementById('titulo').value;
-            mis_peliculas[i].director = document.getElementById('director').value;
-
-            indexContr();
-        };
-
-        function newContr(i) {
-            document.getElementById('main').innerHTML = newView(i);
-
-
-        };
-
-        function createContr() {
-            mis_peliculas.push(titulo:document.getElementById('titulo').value, director:document.getElementById('director').value);
-            indexContr();
-
-        };
-
-        function deleteContr(i) {
-
-            // Genera desplegable: botón ok devuelve true, Cancel false
-            if (confirm(`Borrar ${mis_peliculas[i].titulo}`)) {
-
-                mis_peliculas.splice(i, 1); // elimina elemento i del array
-                indexContr();
-            };
-        };
-
-
-        // Inicialización 
-        function init() {
-            indexContr();
-        };
-    </script>
+  </script>
 </head>
-
 <body onload="init()">
-
-    <h1>Las Películas Favoritas de Manuel Evanguelopulos Fernández</h1>
-    <p>Haga clic sobre una película para ver su director</p>
-    <div id="main"></div>
-    
-
+  <h1>Mis Películas Favoritas</h1>
+  <div id="main"> <!-- La vista se incluye aquí --> </div>
 </body>
 </html>
