@@ -36,7 +36,8 @@
         </div>\n`;
         i = i + 1;
       };
-      view = view + `<button onclick="newContr()"> Añadir</button>`
+      view = view + `<button onclick="newContr()"> Añadir</button>
+      <button onclick="randomContr()">Sorpresa</button>`
       return view;
     };
 
@@ -46,14 +47,14 @@
       <input type="text" id="director" value="${mis_peliculas[i].director}"><br>
       <button onclick="updateContr(${i})">Actualizar</button><br>
       <button onclick="indexContr()">Volver</button>`;
-    }
+    };
 
     function showView (i) {
       return `La película <b>${mis_peliculas[i].titulo}</b> fue dirigida por
       <b>${mis_peliculas[i].director}</b>.
       <button onclick="indexContr()">Volver</button>
       <button onclick="editContr(${i})">Editar Película</button>`;
-    }
+    };
 
     function newView () {
       return `Añadir Película: <br>
@@ -61,7 +62,7 @@
       Director: <input type="text" id="director" value=""><br>
       <button onclick="createContr()">Actualizar</button><br>
       <button onclick="indexContr()">Volver</button>`;
-    }
+    };
 
     // CONTROLADORES
     function indexContr() {
@@ -98,6 +99,15 @@
         mis_peliculas.splice(i, 1); // elimina elemento i del array
         indexContr();
       };
+    };
+
+    function randomContr() {
+      var maxPeliculas = mis_peliculas.length - 1;
+      var minPeliculas = 0;
+      var randomNumber = Math.floor(Math.random() * (maxPeliculas - minPeliculas
+       + 1 ) + minPeliculas);
+      document.getElementById('main').innerHTML = indexView() +
+      `<div>${showView(randomNumber)}</div>`;
     };
 
     // Inicialización
