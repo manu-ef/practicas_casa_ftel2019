@@ -102,12 +102,8 @@
     };
 
     function randomContr() {
-      var maxPeliculas = mis_peliculas.length - 1;
-      var minPeliculas = 0;
-      var randomNumber = Math.floor(Math.random() * (maxPeliculas - minPeliculas
-       + 1 ) + minPeliculas);
       document.getElementById('main').innerHTML = indexView() +
-      `<div>${showView(randomNumber)}</div>`;
+      `<div>${showView(newContr())}</div>`;
     };
 
     // Inicialización
