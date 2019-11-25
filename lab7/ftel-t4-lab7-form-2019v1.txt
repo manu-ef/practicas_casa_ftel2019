@@ -1,0 +1,61 @@
+FTEL - Laboratorio 7 - Formulario de entrega
+
+Edite este fichero con un EDITOR DE TEXTO PLANO.
+Rellene los espacios en blanco con los resultados pedidos en el enunciado. 
+NO BORRE NADA DE LO QUE YA ESTÁ ESCRITO.
+COMPLETE SU DIRECCIÓN DE EMAIL de alumno en la línea siguiente, INSERTANDO delante del signo @ lo que corresponda:
+
+@alumnos.upm.es
+
+Antes de entregar, renombre este fichero como indican las instrucciones de entrega proyectadas en la pantalla del laboratorio.
+
+* Tarea 3. 
+
+3.1 Recorte y pegue aquí las sentencias CREATE TABLE usadas para crear las tablas de la base de datos:
+
+
+
+
+3.2. Recorte y pegue aquí el resultado de la sentencia DESCRIBE para cada una de las tablas creadas:
+
+
+
+
+3.3. Explique brevemente cuáles son los elementos del diagrama E-R de la práctica que se deben transformar en tablas, cuáles no y por qué:
+
+
+
+
+3.4. Recorte y pegue aquí el resultado que muestra MySQL con la sentencia SHOW TABLES:
+
+
+
+
+
+* Tarea 4.  
+
+4.1. Recorte y pegue aquí todas las sentencias INSERT INTO que haya utilizado para rellenar las tablas:
+
+
+
+
+
+* Tarea 5.
+ 
+5.1. Recorte y pegue aquí el resultado de las sentencias SELECT  para cada una de las tablas creadas:
+
+
+
+
+5.2. Escriba una sentencia SELECT para realizar la consulta que se indique en la tarea correspondiente a su grupo de clase:
+
+
+
+
+     Recorte y pegue aquí el resultado que da MySQL al ejecutar la sentencia SELECT anterior:
+
+
+
+
+
+-------------------------------
