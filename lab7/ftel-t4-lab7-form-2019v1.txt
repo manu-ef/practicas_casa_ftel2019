@@ -64,13 +64,13 @@ mysql> describe asiste;
 3.3. Explique brevemente cuáles son los elementos del diagrama E-R de la práctica que se deben transformar en tablas, cuáles no y por qué:
 
 Los elementos del diagrama E-R que se deben transformar en tabla son:
- - usuario
- - sitio
- - quedada
- - asiste
-pues usuario, sitio y quedada son entidades que representan objetos o conceptos distinguibles, con sus atributos propios,
-asiste es la relación N:M entre ellas (que requiere de tabla) y contiene claves ajenas,
-y, por último, la relación donde (N:1) no requiere de tabla.
+ - "usuario"
+ - "sitio"
+ - "quedada"
+ - "asiste"
+pues "usuario", "sitio" y "quedada" son entidades que representan objetos o conceptos distinguibles, con sus atributos propios,
+"asiste" es la relación N:M entre ellas (que requiere de tabla, descomponiéndose en dos relaciones N:1) y contiene claves ajenas,
+y, por último, la relación "donde" (N:1) no requiere de tabla pues su relación está justificada por la clave ajena "direccion".
 
 3.4. Recorte y pegue aquí el resultado que muestra MySQL con la sentencia SHOW TABLES:
 
