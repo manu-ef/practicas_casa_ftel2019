@@ -14,7 +14,7 @@ Antes de entregar, renombre este fichero como indican las instrucciones de entre
 3.1 Recorte y pegue aquí las sentencias CREATE TABLE usadas para crear las tablas de la base de datos:
 
 CREATE TABLE usuario (nombre varchar(30), clave varchar(30) NOT NULL, edad int, imagen varchar(30) NOT NULL DEFAULT "usuario.jpg", PRIMARY KEY (nombre));
-CREATE TABLE sitio (direccion varchar(30) NOT NULL, coordenadas int NOT NULL, PRIMARY KEY (direccion));
+CREATE TABLE sitio (direccion varchar(30) NOT NULL, coordenadas varchar(30) NOT NULL, PRIMARY KEY (direccion));
 CREATE TABLE quedada (que varchar(30), dia DATE NOT NULL, hora TIME NOT NULL, direccion varchar(30) NOT NULL, PRIMARY KEY (que), FOREIGN KEY (direccion) REFERENCES sitio(direccion));
 CREATE TABLE asiste (nombre varchar(30) NOT NULL, que varchar(30) NOT NULL, PRIMARY KEY (nombre, que), FOREIGN KEY (nombre) REFERENCES usuario(nombre), FOREIGN KEY (que) REFERENCES quedada(que));
 
@@ -37,7 +37,7 @@ mysql> describe sitio;
 | Field       | Type        | Null | Key | Default | Extra |
 +-------------+-------------+------+-----+---------+-------+
 | direccion   | varchar(30) | NO   | PRI | NULL    |       |
-| coordenadas | int(11)     | NO   |     | NULL    |       |
+| coordenadas | varchar(30) | NO   |     | NULL    |       |
 +-------------+-------------+------+-----+---------+-------+
 2 rows in set (0.00 sec)
 
@@ -89,9 +89,21 @@ mysql> show tables;
 
 4.1. Recorte y pegue aquí todas las sentencias INSERT INTO que haya utilizado para rellenar las tablas:
 
+INSERT INTO usuario VALUES ("Elena García", "elena", 18, "elena.jpg");
+INSERT INTO usuario VALUES ("Alejandra Hurtado", "alejandra", 18, "alejandra.jpg");
+INSERT INTO usuario VALUES ("Isabel Salmerón", "isabel", 18, "isabel.jpg");
 
+INSERT INTO sitio VALUES ("El Cairo, Egipto", "30.048819 31.243666");
+INSERT INTO sitio VALUES ("Atenas, Grecia", "37.9841493 23.7279843");
+INSERT INTO sitio VALUES ("Roma, Italia", "41.894802 12.4853384");
 
+INSERT INTO quedada VALUES ("Cumpleaños de Luis", "2019-12-14", "17:00", "Atenas, Grecia");
+INSERT INTO quedada VALUES ("Boda de María", "2020-04-09", "12:00", "Roma, Italia");
+INSERT INTO quedada VALUES ("Fiesta de Carlos", "2020-06-21", "20:00", "El Cairo, Egipto");
 
+INSERT INTO asiste VALUES ("Elena García", "Boda de María");
+INSERT INTO asiste VALUES ("Alejandra Hurtado", "Fiesta de Carlos");
+INSERT INTO asiste VALUES ("Isabel Salmerón", "Cumpleaños de Luis");
 
 * Tarea 5.
 
