@@ -1,0 +1,59 @@
+create database misquedadas;
+
+CREATE TABLE usuario (nombre varchar(30), clave varchar(30) NOT NULL, edad int, imagen varchar(30) NOT NULL DEFAULT "usuario.jpg", PRIMARY KEY (nombre));
+
+CREATE TABLE sitio (direccion varchar(30) NOT NULL, coordenadas int NOT NULL, PRIMARY KEY (direccion));
+
+CREATE TABLE quedada (que varchar(30), dia DATE NOT NULL, hora TIME NOT NULL, direccion varchar(30) NOT NULL, PRIMARY KEY (que), FOREIGN KEY (direccion) REFERENCES sitio(direccion));
+
+CREATE TABLE asiste (nombre varchar(30) NOT NULL, que varchar(30) NOT NULL, PRIMARY KEY (nombre, que), FOREIGN KEY (nombre) REFERENCES usuario(nombre), FOREIGN KEY (que) REFERENCES quedada(que));
+
+mysql> describe usuario;
++--------+-------------+------+-----+-------------+-------+
+| Field  | Type        | Null | Key | Default     | Extra |
++--------+-------------+------+-----+-------------+-------+
+| nombre | varchar(30) | NO   | PRI | NULL        |       |
+| clave  | varchar(30) | NO   |     | NULL        |       |
+| edad   | int(11)     | YES  |     | NULL        |       |
+| imagen | varchar(30) | NO   |     | usuario.jpg |       |
++--------+-------------+------+-----+-------------+-------+
+4 rows in set (0,00 sec)
+
+mysql> describe sitio;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| direccion | varchar(30) | NO   | PRI | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+1 row in set (0,00 sec)
+
+mysql> describe quedada;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| que       | varchar(30) | NO   | PRI | NULL    |       |
+| dia       | date        | NO   |     | NULL    |       |
+| hora      | time        | NO   |     | NULL    |       |
+| direccion | varchar(30) | NO   | MUL | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+4 rows in set (0,00 sec)
+
+mysql> describe asiste;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| nombre | varchar(30) | NO   | PRI | NULL    |       |
+| que    | varchar(30) | NO   | PRI | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+2 rows in set (0,00 sec)
+
+mysql> show tables;
++-----------------------+
+| Tables_in_misquedadas |
++-----------------------+
+| asiste                |
+| quedada               |
+| sitio                 |
+| usuario               |
++-----------------------+
+4 rows in set (0,01 sec)
