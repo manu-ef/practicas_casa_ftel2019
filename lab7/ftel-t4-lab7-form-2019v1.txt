@@ -93,9 +93,9 @@ INSERT INTO usuario VALUES ("Elena García", "elena", 18, "elena.jpg");
 INSERT INTO usuario VALUES ("Alejandra Hurtado", "alejandra", 18, "alejandra.jpg");
 INSERT INTO usuario VALUES ("Isabel Salmerón", "isabel", 18, "isabel.jpg");
 
-INSERT INTO sitio VALUES ("El Cairo, Egipto", "30.048819 31.243666");
-INSERT INTO sitio VALUES ("Atenas, Grecia", "37.9841493 23.7279843");
-INSERT INTO sitio VALUES ("Roma, Italia", "41.894802 12.4853384");
+INSERT INTO sitio VALUES ("El Cairo, Egipto", "30.048819, 31.243666");
+INSERT INTO sitio VALUES ("Atenas, Grecia", "37.9841493, 23.7279843");
+INSERT INTO sitio VALUES ("Roma, Italia", "41.894802, 12.4853384");
 
 INSERT INTO quedada VALUES ("Cumpleaños de Luis", "2019-12-14", "17:00", "Atenas, Grecia");
 INSERT INTO quedada VALUES ("Boda de María", "2020-04-09", "12:00", "Roma, Italia");
@@ -109,8 +109,45 @@ INSERT INTO asiste VALUES ("Isabel Salmerón", "Cumpleaños de Luis");
 
 5.1. Recorte y pegue aquí el resultado de las sentencias SELECT  para cada una de las tablas creadas:
 
+mysql> SELECT * FROM usuario;
++-------------------+-----------+------+---------------+
+| nombre            | clave     | edad | imagen        |
++-------------------+-----------+------+---------------+
+| Alejandra Hurtado | alejandra |   18 | alejandra.jpg |
+| Elena García      | elena     |   18 | elena.jpg     |
+| Isabel Salmerón   | isabel    |   18 | isabel.jpg    |
++-------------------+-----------+------+---------------+
+3 rows in set (0.00 sec)
 
+mysql> SELECT * FROM sitio;
++------------------+-----------------------+
+| direccion        | coordenadas           |
++------------------+-----------------------+
+| Atenas, Grecia   | 37.9841493 23.7279843 |
+| El Cairo, Egipto | 30.048819 31.243666   |
+| Roma, Italia     | 41.894802 12.4853384  |
++------------------+-----------------------+
+3 rows in set (0.00 sec)
 
+mysql> SELECT * FROM quedada;
++---------------------+------------+----------+------------------+
+| que                 | dia        | hora     | direccion        |
++---------------------+------------+----------+------------------+
+| Boda de María       | 2020-04-09 | 12:00:00 | Roma, Italia     |
+| Cumpleaños de Luis  | 2019-12-14 | 17:00:00 | Atenas, Grecia   |
+| Fiesta de Carlos    | 2020-06-21 | 20:00:00 | El Cairo, Egipto |
++---------------------+------------+----------+------------------+
+3 rows in set (0.00 sec)
+
+mysql> SELECT * FROM asiste;
++-------------------+---------------------+
+| nombre            | que                 |
++-------------------+---------------------+
+| Elena García      | Boda de María       |
+| Isabel Salmerón   | Cumpleaños de Luis  |
+| Alejandra Hurtado | Fiesta de Carlos    |
++-------------------+---------------------+
+3 rows in set (0.00 sec)
 
 5.2. Escriba una sentencia SELECT para realizar la consulta que se indique en la tarea correspondiente a su grupo de clase:
 
