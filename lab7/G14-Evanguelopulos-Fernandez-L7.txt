@@ -151,11 +151,16 @@ mysql> SELECT * FROM asiste;
 
 5.2. Escriba una sentencia SELECT para realizar la consulta que se indique en la tarea correspondiente a su grupo de clase:
 
+mysql> SELECT dia, hora, quedada.que, direccion FROM quedada, asiste WHERE asiste.que = quedada.que AND asiste.nombre = "Isabel Salmerón" ORDER BY dia, hora;
 
+Recorte y pegue aquí el resultado que da MySQL al ejecutar la sentencia SELECT anterior:
 
-
-     Recorte y pegue aquí el resultado que da MySQL al ejecutar la sentencia SELECT anterior:
-
+ +------------+----------+---------------------+----------------+
+ | dia        | hora     | que                 | direccion      |
+ +------------+----------+---------------------+----------------+
+ | 2019-12-14 | 17:00:00 | Cumpleaños de Luis  | Atenas, Grecia |
+ +------------+----------+---------------------+----------------+
+ 1 row in set (0.00 sec)
 
 
 
