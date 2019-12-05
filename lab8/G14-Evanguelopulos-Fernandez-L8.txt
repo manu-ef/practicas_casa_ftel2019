@@ -31,9 +31,13 @@ Se asigna el primer número al byte más significativo (número 10, 0a), y poste
 * Tarea 5. Estudio del protocolo de transporte.
 - Anote los puertos origen y destino del paquete examinado:
 
+Puerto de origen: 60982
+Puerto de destino: 80
 
 - ¿Qué protocolo de aplicación está asociado al puerto destino?:
 
+Protocolo de Transporte: TCP
+Protocolo de Aplicación: HTTP
 
 * Tarea 7. Uso de la orden ping.
 - Escriba el número total de saltos hasta el servidor destino y los valores medios de RTT hasta el enrutador 1, hasta el 5, hasta el 10 y hasta el servidor:
