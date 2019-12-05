@@ -42,6 +42,11 @@ Protocolo de Aplicación: HTTP
 * Tarea 7. Uso de la orden ping.
 - Escriba el número total de saltos hasta el servidor destino y los valores medios de RTT hasta el enrutador 1, hasta el 5, hasta el 10 y hasta el servidor:
 
+Número total de saltos hasta el servidor de destino: 15 saltos.
+Valores medios de RTT hasta el enrutador 1: 0,019 ms.
+Valores medios de RTT hasta el enrutador 5: 5,226 ms.
+Valores medios de RTT hasta el enrutador 10: 7,025 ms.
+Valores medios de RTT hasta el servidor: 7,855 ms.
 
 * Tarea 8. Ruta específica para su grupo.
 - Incluya la salida de la orden que muestra la ruta a la máquina destino de su grupo de clase:
