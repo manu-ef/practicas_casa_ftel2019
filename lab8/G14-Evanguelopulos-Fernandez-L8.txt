@@ -1,0 +1,44 @@
+FTEL - Laboratorio 8 - Formulario de entrega
+
+Edite este fichero con un EDITOR DE TEXTO PLANO.
+Rellene los espacios en blanco con los resultados pedidos en el enunciado.
+NO BORRE NADA DE LO QUE YA ESTÁ ESCRITO.
+COMPLETE SU DIRECCIÓN DE EMAIL de alumno en la línea siguiente, INSERTANDO delante del signo @ lo que corresponda:
+
+manuel.efernandez@alumnos.upm.es
+
+Antes de entregar, renombre este fichero como indican las instrucciones de entrega proyectadas en la pantalla del laboratorio.
+
+* Tarea 1.
+- Dirección IP de su ordenador:
+
+
+* Tarea 4. Estudio del protocolo IP:
+-  Indique en qué posición dentro de la cabecera IP se encuentran los octetos que llevan la dirección origen del paquete IP:
+
+
+- Indique justificadamente si al transmitirse por la red los octetos de la dirección IP se envían en el orden del convenio extremista mayor o menor:
+
+
+* Tarea 5. Estudio del protocolo de transporte.
+- Anote los puertos origen y destino del paquete examinado:
+
+
+- ¿Qué protocolo de aplicación está asociado al puerto destino?:
+
+
+* Tarea 7. Uso de la orden ping.
+- Escriba el número total de saltos hasta el servidor destino y los valores medios de RTT hasta el enrutador 1, hasta el 5, hasta el 10 y hasta el servidor:
+
+
+* Tarea 8. Ruta específica para su grupo.
+- Incluya la salida de la orden que muestra la ruta a la máquina destino de su grupo de clase:
+
+
+- ¿A cuántos saltos se encuentra de su ordenador dicha máquina?:
+
+
+- ¿Entre qué máquinas intermedias (indique sus nombres y direcciones IP) se produce el mayor incremento del RTT? Indique una posible explicación de este incremento:
+
+
+-------------------------------
