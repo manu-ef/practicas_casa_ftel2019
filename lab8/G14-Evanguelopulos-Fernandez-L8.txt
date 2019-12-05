@@ -11,15 +11,22 @@ Antes de entregar, renombre este fichero como indican las instrucciones de entre
 
 * Tarea 1.
 - Dirección IP de su ordenador:
-GATEWAY: 10.0.2.2
-IP: 10.0.2.15
+Dirección IP: 10.0.2.15
 
 * Tarea 4. Estudio del protocolo IP:
 -  Indique en qué posición dentro de la cabecera IP se encuentran los octetos que llevan la dirección origen del paquete IP:
 
+La dirección IP origen (source) se encuentra en:
+
+--> Paquete: GET / HTTP/1.1
+  --> Protocolo: Internet Protocol Version 4, Src: 10.0.2.15, Dst: 138.4.18.74
+    --> Source: 10.0.2.15
 
 - Indique justificadamente si al transmitirse por la red los octetos de la dirección IP se envían en el orden del convenio extremista mayor o menor:
 
+Los cuatro octetos que nos devuelve Source (Source: 10.0.2.15) son: 0a 00 02 0f, que convertidos a caracteres equivalen a 10.0.2.15.
+Podemos afirmar, por tanto, que al transmitirse por la red los octetos de la dirección IP se envían en orden del convenio extremista mayor, pues la dirección IP y los cuatro octetos se presentan ordenados.
+Se asigna el primer número al byte más significativo (número 10, 0a), y posteriormente los demás números (0.2.15, 00 02 0f).
 
 * Tarea 5. Estudio del protocolo de transporte.
 - Anote los puertos origen y destino del paquete examinado:
