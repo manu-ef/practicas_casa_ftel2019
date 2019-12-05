@@ -11,7 +11,8 @@ Antes de entregar, renombre este fichero como indican las instrucciones de entre
 
 * Tarea 1.
 - Dirección IP de su ordenador:
-
+GATEWAY: 10.0.2.2
+IP: 10.0.2.15
 
 * Tarea 4. Estudio del protocolo IP:
 -  Indique en qué posición dentro de la cabecera IP se encuentran los octetos que llevan la dirección origen del paquete IP:
