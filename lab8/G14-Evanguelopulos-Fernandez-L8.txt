@@ -19,7 +19,7 @@ Dirección IP: 10.0.2.15
 La dirección IP origen (source) se encuentra en:
 
 --> Paquete: GET / HTTP/1.1
-  --> Protocolo: Internet Protocol Version 4, Src: 10.0.2.15, Dst: 138.4.18.74
+  --> Internet Protocol Version 4, Src: 10.0.2.15, Dst: 138.4.18.74
     --> Source: 10.0.2.15
 
 - Indique justificadamente si al transmitirse por la red los octetos de la dirección IP se envían en el orden del convenio extremista mayor o menor:
