@@ -11,51 +11,71 @@ Antes de entregar, renombre este fichero como indican las instrucciones de entre
 
 * Tarea 1.
 - Dirección IP de su ordenador:
-Dirección IP: 10.0.2.15
+Dirección IP: 127.0.0.1
 
 * Tarea 4. Estudio del protocolo IP:
 -  Indique en qué posición dentro de la cabecera IP se encuentran los octetos que llevan la dirección origen del paquete IP:
 
-La dirección IP origen (source) se encuentra en:
-
---> Paquete: GET / HTTP/1.1
-  --> Internet Protocol Version 4, Src: 10.0.2.15, Dst: 138.4.18.74
-    --> Source: 10.0.2.15
+La dirección IP origen (source) se encuentra en los 4 últimos octetos de Internet Protocol Version.
 
 - Indique justificadamente si al transmitirse por la red los octetos de la dirección IP se envían en el orden del convenio extremista mayor o menor:
 
-Los cuatro octetos que nos devuelve Source (Source: 10.0.2.15) son: 0a 00 02 0f, que convertidos a caracteres equivalen a 10.0.2.15.
+Los cuatro octetos que nos devuelve Destination (Dst: 138.4.18.74) son: 8a 04 12 4f, que convertidos a caracteres equivalen a 10.0.2.15.
 Podemos afirmar, por tanto, que al transmitirse por la red los octetos de la dirección IP se envían en orden del convenio extremista mayor, pues la dirección IP y los cuatro octetos se presentan ordenados.
-Se asigna el primer número al byte más significativo (número 10, 0a), y posteriormente los demás números (0.2.15, 00 02 0f).
+Se asigna el primer número al byte más significativo (número 138, 8a), y posteriormente los demás números (4.18.74, 04 12 4f).
 
 * Tarea 5. Estudio del protocolo de transporte.
 - Anote los puertos origen y destino del paquete examinado:
 
-Puerto de origen: 60982
+Puerto de origen: 38210
 Puerto de destino: 80
 
 - ¿Qué protocolo de aplicación está asociado al puerto destino?:
 
-Protocolo de Transporte: TCP
 Protocolo de Aplicación: HTTP
 
 * Tarea 7. Uso de la orden ping.
 - Escriba el número total de saltos hasta el servidor destino y los valores medios de RTT hasta el enrutador 1, hasta el 5, hasta el 10 y hasta el servidor:
 
-Número total de saltos hasta el servidor de destino: 15 saltos.
-Valores medios de RTT hasta el enrutador 1: 0,019 ms.
-Valores medios de RTT hasta el enrutador 5: 5,226 ms.
-Valores medios de RTT hasta el enrutador 10: 7,025 ms.
-Valores medios de RTT hasta el servidor: 7,855 ms.
+Número total de saltos hasta el servidor de destino: 16 saltos.
+Valores medios de RTT hasta el enrutador 1: 0.354 ms.
+Valores medios de RTT hasta el enrutador 5: 5.257 ms.
+Valores medios de RTT hasta el enrutador 10: 7.504 ms.
+Valores medios de RTT hasta el servidor: 4.646 ms.
 
 * Tarea 8. Ruta específica para su grupo.
 - Incluya la salida de la orden que muestra la ruta a la máquina destino de su grupo de clase:
 
+traceroute to www.fsu.edu (146.201.111.62), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.303 ms  0.226 ms  0.118 ms
+ 2  router-lab.lab.dit.upm.es (138.4.30.1)  0.467 ms  0.477 ms  0.479 ms
+ 3  fw-lab.lab.dit.upm.es (138.4.26.1)  0.509 ms  0.404 ms  0.389 ms
+ 4  r7000-ext.dit.upm.es (138.4.0.1)  0.722 ms  0.701 ms  0.680 ms
+ 5  192.168.100.65 (192.168.100.65)  1.248 ms  1.297 ms  1.018 ms
+ 6  192.168.200.13 (192.168.200.13)  0.926 ms  0.810 ms  0.845 ms
+ 7  192.168.200.70 (192.168.200.70)  1.112 ms  0.943 ms  1.021 ms
+ 8  csic-rt-ju-02-ge-0-0-2.net.redimadrid.es (193.145.14.10)  1.690 ms  1.606 ms  1.572 ms
+ 9  ae2-103.telmad.rt4.mad.red.rediris.es (130.206.216.1)  2.609 ms  2.746 ms  2.553 ms
+10  rediris.mx1.mar.fr.geant.net (62.40.124.192)  16.226 ms  16.600 ms  16.446 ms
+11  ae8.mx1.gen.ch.geant.net (62.40.98.73)  22.954 ms  30.278 ms  22.508 ms
+12  ae6.mx1.par.fr.geant.net (62.40.98.183)  29.906 ms  29.830 ms  29.893 ms
+13  ae5.mx1.lon2.uk.geant.net (62.40.98.178)  36.374 ms  36.530 ms  36.380 ms
+14  ae6.mx1.lon.uk.geant.net (62.40.98.36)  56.006 ms  37.299 ms  37.268 ms
+15  internet2-gw.mx1.lon.uk.geant.net (62.40.124.45)  112.045 ms  111.889 ms  112.097 ms
+16  ae-1.4079.rtsw.atla.net.internet2.edu (198.71.45.6)  126.194 ms  125.853 ms  124.702 ms
+17  et-3-0-0.4079.rtsw.jack.net.internet2.edu (162.252.70.43)  130.201 ms  130.323 ms  130.061 ms
+18  jax-flrcore-asr9010-1-hu0700-1070.net.flrnet.org (108.59.25.20)  130.904 ms  131.126 ms  130.810 ms
+19  tlh-flrcore-asr9010-1-hu0701-1.net.flrnet.org (108.59.31.158)  133.936 ms  133.789 ms  134.061 ms
+20  FSU-Campus-2-FLR-TLH-RE-v1902.net.flrnet.org (108.59.25.241)  124.548 ms  119.672 ms  119.865 ms
+21  po136-4000.bfs-dc.net.fsu.edu (128.186.248.2)  119.918 ms  119.557 ms  119.699 ms
+22  webvm.its.fsu.edu (146.201.111.62)  119.436 ms  119.699 ms  119.500 ms
 
 - ¿A cuántos saltos se encuentra de su ordenador dicha máquina?:
 
+Se encuentra a 22 saltos.
 
 - ¿Entre qué máquinas intermedias (indique sus nombres y direcciones IP) se produce el mayor incremento del RTT? Indique una posible explicación de este incremento:
+Entre la máquina 14 (ae6.mx1.lon.uk.geant.net, 62.40.98.36) y la máquina 15 (internet2-gw.mx1.lon.uk.geant.net, 62.40.124.45). Una posible explicación puede ser que la máquina 14 se encuentra muy alejada de la 15.
 
 
 -------------------------------
